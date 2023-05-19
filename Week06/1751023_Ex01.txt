@@ -1,0 +1,13 @@
+The screen will print out:
+B text
+A default
+
+B obj1("text");
+//The program call constructor B(char *s), then call A(char *s), so obj1=text;
+
+A *obj2 = new B(obj1);
+//he program call constructor B(const B &b), then call A(), so *obj2=default;
+
+foo(&obj1, *obj2);
+//First it call obj1->display, the progress comes to display() in A, prepare() in B so output B text on the screen
+//Then it call obj1->display, the progress comes to display() in A, prepare() in A so output A default on the screen

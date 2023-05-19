@@ -1,0 +1,9 @@
+﻿  Date.cpp
+  1751023_Ex02.cpp
+  Generating Code...
+d:\apcs\cs202\week03\project1\project2\date.cpp(105): warning C4172: returning address of local variable or temporary: temp
+d:\apcs\cs202\week03\project1\project2\date.cpp(124): warning C4172: returning address of local variable or temporary: temp
+d:\apcs\cs202\week03\project1\project2\date.cpp(114): warning C4172: returning address of local variable or temporary: temp
+d:\apcs\cs202\week03\project1\project2\date.cpp(134): warning C4172: returning address of local variable or temporary: temp
+  Project2.vcxproj -> D:\APCS\CS202\Week03\Project1\Debug\Project2.exe
+  Project2.vcxproj -> D:\APCS\CS202\Week03\Project1\Debug\Project2.pdb (Partial PDB)

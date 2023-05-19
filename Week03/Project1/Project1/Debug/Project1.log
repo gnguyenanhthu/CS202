@@ -1,0 +1,19 @@
+﻿  1751023_Ex01.cpp
+d:\apcs\cs202\week03\project1\project1\1751023_ex01.cpp(25): error C2666: 'Fraction::operator +': 3 overloads have similar conversions
+  d:\apcs\cs202\week03\project1\project1\fraction.h(19): note: could be 'Fraction &Fraction::operator +(const Fraction &)'
+  d:\apcs\cs202\week03\project1\project1\fraction.h(54): note: or       'Fraction operator +(const Fraction &,const Fraction &)'
+  d:\apcs\cs202\week03\project1\project1\1751023_ex01.cpp(25): note: or       'built-in C++ operator+(float, int)'
+  d:\apcs\cs202\week03\project1\project1\1751023_ex01.cpp(25): note: while trying to match the argument list '(Fraction, int)'
+d:\apcs\cs202\week03\project1\project1\1751023_ex01.cpp(26): error C2666: 'operator +': 2 overloads have similar conversions
+  d:\apcs\cs202\week03\project1\project1\fraction.h(54): note: could be 'Fraction operator +(const Fraction &,const Fraction &)'
+  d:\apcs\cs202\week03\project1\project1\1751023_ex01.cpp(26): note: or       'built-in C++ operator+(int, float)'
+  d:\apcs\cs202\week03\project1\project1\1751023_ex01.cpp(26): note: while trying to match the argument list '(int, Fraction)'
+d:\apcs\cs202\week03\project1\project1\1751023_ex01.cpp(27): error C2666: 'operator *': 2 overloads have similar conversions
+  d:\apcs\cs202\week03\project1\project1\fraction.h(55): note: could be 'Fraction operator *(const Fraction &,const Fraction &)'
+  d:\apcs\cs202\week03\project1\project1\1751023_ex01.cpp(27): note: or       'built-in C++ operator*(int, float)'
+  d:\apcs\cs202\week03\project1\project1\1751023_ex01.cpp(27): note: while trying to match the argument list '(int, Fraction)'
+d:\apcs\cs202\week03\project1\project1\1751023_ex01.cpp(28): error C2666: 'Fraction::operator -': 3 overloads have similar conversions
+  d:\apcs\cs202\week03\project1\project1\fraction.h(20): note: could be 'Fraction &Fraction::operator -(const Fraction &)'
+  d:\apcs\cs202\week03\project1\project1\fraction.h(56): note: or       'Fraction operator -(const Fraction &,const Fraction &)'
+  d:\apcs\cs202\week03\project1\project1\1751023_ex01.cpp(28): note: or       'built-in C++ operator-(float, int)'
+  d:\apcs\cs202\week03\project1\project1\1751023_ex01.cpp(28): note: while trying to match the argument list '(Fraction, int)'

@@ -1,0 +1,5 @@
+﻿  1751023_Ex03.cpp
+d:\apcs\cs202\week04\project1\project3\1751023_ex03.cpp(13): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\apcs\cs202\week04\project1\project3\1751023_ex03.cpp(14): warning C4305: 'argument': truncation from 'double' to 'float'
+  Project3.vcxproj -> D:\APCS\CS202\Week04\Project1\Debug\Project3.exe
+  Project3.vcxproj -> D:\APCS\CS202\Week04\Project1\Debug\Project3.pdb (Partial PDB)

@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+//Singleton pattern
+class SingleObject
+{
+private: static SingleObject *x; //static pointer
+		 SingleObject(); //place constructor in private 	
+public:
+	static SingleObject get()
+	{
+		if (x == NULL) x = new SingleObject();
+		return *x;
+	}
+};

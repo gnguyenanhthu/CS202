@@ -1,0 +1,54 @@
+﻿  1751023_Ex01.cpp
+d:\apcs\cs202\week08\project1\project1\header.h(44): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Fraction' (or there is no acceptable conversion)
+  d:\apcs\cs202\week08\project1\project1\header.h(130): note: could be 'bool operator ==(const Fraction &,const Fraction &)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\system_error(372): note: or       'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\system_error(366): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\system_error(360): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\system_error(354): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\exception(342): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\exception(337): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\exception(332): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  d:\apcs\cs202\week08\project1\project1\header.h(44): note: while trying to match the argument list '(Fraction, int)'
+  d:\apcs\cs202\week08\project1\project1\1751023_ex01.cpp(64): note: see reference to function template instantiation 'void add<Fraction>(T *,int &,T)' being compiled
+          with
+          [
+              T=Fraction
+          ]
+d:\apcs\cs202\week08\project1\project1\header.h(157): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Fraction' (or there is no acceptable conversion)
+  d:\apcs\cs202\week08\project1\project1\header.h(130): note: could be 'bool operator ==(const Fraction &,const Fraction &)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\system_error(372): note: or       'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\system_error(366): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\system_error(360): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\system_error(354): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\exception(342): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\exception(337): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\exception(332): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  d:\apcs\cs202\week08\project1\project1\header.h(157): note: while trying to match the argument list '(Fraction, int)'
+  d:\apcs\cs202\week08\project1\project1\1751023_ex01.cpp(66): note: see reference to function template instantiation 'int size<Fraction>(T *,int &)' being compiled
+          with
+          [
+              T=Fraction
+          ]
+d:\apcs\cs202\week08\project1\project1\header.h(54): error C2678: binary '==': no operator found which takes a left-hand operand of type 'Fraction' (or there is no acceptable conversion)
+  d:\apcs\cs202\week08\project1\project1\header.h(130): note: could be 'bool operator ==(const Fraction &,const Fraction &)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\system_error(372): note: or       'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\system_error(366): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\system_error(360): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\system_error(354): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\exception(342): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) throw()'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\exception(337): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) throw()'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\exception(332): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) throw()'
+  d:\apcs\cs202\week08\project1\project1\header.h(54): note: while trying to match the argument list '(Fraction, int)'
+  d:\apcs\cs202\week08\project1\project1\1751023_ex01.cpp(69): note: see reference to function template instantiation 'void remove<Fraction>(T *,int &)' being compiled
+          with
+          [
+              T=Fraction
+          ]
+d:\apcs\cs202\week08\project1\project1\header.h(55): error C2679: binary '=': no operator found which takes a right-hand operand of type 'int' (or there is no acceptable conversion)
+  d:\apcs\cs202\week08\project1\project1\header.h(17): note: could be 'Fraction &Fraction::operator =(Fraction &&)'
+  d:\apcs\cs202\week08\project1\project1\header.h(17): note: or       'Fraction &Fraction::operator =(const Fraction &)'
+  d:\apcs\cs202\week08\project1\project1\header.h(55): note: while trying to match the argument list '(Fraction, int)'
+d:\apcs\cs202\week08\project1\project1\header.h(59): error C2679: binary '=': no operator found which takes a right-hand operand of type 'int' (or there is no acceptable conversion)
+  d:\apcs\cs202\week08\project1\project1\header.h(17): note: could be 'Fraction &Fraction::operator =(Fraction &&)'
+  d:\apcs\cs202\week08\project1\project1\header.h(17): note: or       'Fraction &Fraction::operator =(const Fraction &)'
+  d:\apcs\cs202\week08\project1\project1\header.h(59): note: while trying to match the argument list '(Fraction, int)'

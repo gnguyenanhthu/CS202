@@ -1,0 +1,118 @@
+﻿  System.cpp
+d:\apcs\cs202\week07\project1\project1\system.h(9): error C2504: 'CItem': base class undefined
+d:\apcs\cs202\week07\project1\project1\system.h(13): error C2065: 'CItem': undeclared identifier
+d:\apcs\cs202\week07\project1\project1\system.h(13): error C2059: syntax error: '>'
+d:\apcs\cs202\week07\project1\project1\system.h(13): error C2976: 'std::vector': too few template arguments
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\vector(659): note: see declaration of 'std::vector'
+d:\apcs\cs202\week07\project1\project1\system.h(17): error C2061: syntax error: identifier 'CFile'
+d:\apcs\cs202\week07\project1\project1\system.h(23): error C2143: syntax error: missing ';' before '*'
+d:\apcs\cs202\week07\project1\project1\system.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\apcs\cs202\week07\project1\project1\system.h(23): error C2238: unexpected token(s) preceding ';'
+d:\apcs\cs202\week07\project1\project1\system.h(24): error C2143: syntax error: missing ';' before '*'
+d:\apcs\cs202\week07\project1\project1\system.h(24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\apcs\cs202\week07\project1\project1\system.h(24): error C2238: unexpected token(s) preceding ';'
+d:\apcs\cs202\week07\project1\project1\system.h(28): error C2504: 'CItem': base class undefined
+d:\apcs\cs202\week07\project1\project1\system.cpp(10): error C2039: 'name': is not a member of 'CFile'
+  d:\apcs\cs202\week07\project1\project1\system.h(28): note: see declaration of 'CFile'
+d:\apcs\cs202\week07\project1\project1\system.cpp(11): error C2039: 'size': is not a member of 'CFile'
+  d:\apcs\cs202\week07\project1\project1\system.h(28): note: see declaration of 'CFile'
+d:\apcs\cs202\week07\project1\project1\system.cpp(12): error C2039: 'type': is not a member of 'CFile'
+  d:\apcs\cs202\week07\project1\project1\system.h(28): note: see declaration of 'CFile'
+d:\apcs\cs202\week07\project1\project1\system.cpp(16): error C2039: 'size': is not a member of 'CFile'
+  d:\apcs\cs202\week07\project1\project1\system.h(28): note: see declaration of 'CFile'
+d:\apcs\cs202\week07\project1\project1\system.cpp(20): error C2039: 'type': is not a member of 'CFile'
+  d:\apcs\cs202\week07\project1\project1\system.h(28): note: see declaration of 'CFile'
+d:\apcs\cs202\week07\project1\project1\system.cpp(24): error C2039: 'name': is not a member of 'CFile'
+  d:\apcs\cs202\week07\project1\project1\system.h(28): note: see declaration of 'CFile'
+d:\apcs\cs202\week07\project1\project1\system.cpp(28): error C2039: 'checkHidden': is not a member of 'CFile'
+  d:\apcs\cs202\week07\project1\project1\system.h(28): note: see declaration of 'CFile'
+d:\apcs\cs202\week07\project1\project1\system.cpp(31): error C2512: 'std::vector': no appropriate default constructor available
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\vector(659): note: see declaration of 'std::vector'
+d:\apcs\cs202\week07\project1\project1\system.cpp(46): error C2512: 'std::vector': no appropriate default constructor available
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\vector(659): note: see declaration of 'std::vector'
+d:\apcs\cs202\week07\project1\project1\system.cpp(52): error C2511: 'void CFolder::add(CFile *)': overloaded member function not found in 'CFolder'
+  d:\apcs\cs202\week07\project1\project1\system.h(9): note: see declaration of 'CFolder'
+d:\apcs\cs202\week07\project1\project1\system.cpp(53): error C2671: 'CFolder::add': static member functions do not have 'this' pointers
+d:\apcs\cs202\week07\project1\project1\system.cpp(53): error C2227: left of '->size' must point to class/struct/union/generic type
+d:\apcs\cs202\week07\project1\project1\system.cpp(54): error C2228: left of '.push_back' must have class/struct/union
+d:\apcs\cs202\week07\project1\project1\system.cpp(55): error C2597: illegal reference to non-static member 'CFolder::nfiles'
+d:\apcs\cs202\week07\project1\project1\system.cpp(55): error C3867: 'CFolder::nfiles': non-standard syntax; use '&' to create a pointer to member
+d:\apcs\cs202\week07\project1\project1\system.cpp(55): error C2105: '++' needs l-value
+d:\apcs\cs202\week07\project1\project1\system.cpp(60): error C2663: 'std::vector<_Ty,_Alloc>::push_back': 2 overloads have no legal conversion for 'this' pointer
+d:\apcs\cs202\week07\project1\project1\system.cpp(67): error C2662: '_Vector_alloc<_Alloc_types>::_Val_types::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  d:\apcs\cs202\week07\project1\project1\system.cpp(67): note: Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+  d:\apcs\cs202\week07\project1\project1\system.cpp(67): note: Conversion requires a second user-defined-conversion operator or constructor
+d:\apcs\cs202\week07\project1\project1\system.cpp(68): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\vector(1805): note: could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type) const'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\vector(1791): note: or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type)'
+  d:\apcs\cs202\week07\project1\project1\system.cpp(68): note: while trying to match the argument list '(std::vector, int)'
+d:\apcs\cs202\week07\project1\project1\system.cpp(68): error C2227: left of '->getType' must point to class/struct/union/generic type
+d:\apcs\cs202\week07\project1\project1\system.cpp(69): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\vector(1805): note: could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type) const'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\vector(1791): note: or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type)'
+  d:\apcs\cs202\week07\project1\project1\system.cpp(69): note: while trying to match the argument list '(std::vector, int)'
+d:\apcs\cs202\week07\project1\project1\system.cpp(69): error C2227: left of '->getName' must point to class/struct/union/generic type
+d:\apcs\cs202\week07\project1\project1\system.cpp(76): error C2662: '_Vector_alloc<_Alloc_types>::_Val_types::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  d:\apcs\cs202\week07\project1\project1\system.cpp(76): note: Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+  d:\apcs\cs202\week07\project1\project1\system.cpp(76): note: Conversion requires a second user-defined-conversion operator or constructor
+d:\apcs\cs202\week07\project1\project1\system.cpp(77): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\vector(1805): note: could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type) const'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\vector(1791): note: or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type)'
+  d:\apcs\cs202\week07\project1\project1\system.cpp(77): note: while trying to match the argument list '(std::vector, int)'
+d:\apcs\cs202\week07\project1\project1\system.cpp(77): error C2227: left of '->getType' must point to class/struct/union/generic type
+d:\apcs\cs202\week07\project1\project1\system.cpp(78): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\vector(1805): note: could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type) const'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\vector(1791): note: or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type)'
+  d:\apcs\cs202\week07\project1\project1\system.cpp(78): note: while trying to match the argument list '(std::vector, int)'
+d:\apcs\cs202\week07\project1\project1\system.cpp(78): error C2227: left of '->getName' must point to class/struct/union/generic type
+d:\apcs\cs202\week07\project1\project1\system.cpp(86): error C2039: 'removeByName': is not a member of 'CFolder'
+  d:\apcs\cs202\week07\project1\project1\system.h(9): note: see declaration of 'CFolder'
+d:\apcs\cs202\week07\project1\project1\system.cpp(88): error C2065: 'list': undeclared identifier
+d:\apcs\cs202\week07\project1\project1\system.cpp(88): error C2228: left of '.begin' must have class/struct/union
+  d:\apcs\cs202\week07\project1\project1\system.cpp(88): note: type is 'unknown-type'
+d:\apcs\cs202\week07\project1\project1\system.cpp(88): error C2228: left of '.end' must have class/struct/union
+  d:\apcs\cs202\week07\project1\project1\system.cpp(88): note: type is 'unknown-type'
+d:\apcs\cs202\week07\project1\project1\system.cpp(90): error C2065: 'list': undeclared identifier
+d:\apcs\cs202\week07\project1\project1\system.cpp(90): error C2228: left of '.erase' must have class/struct/union
+  d:\apcs\cs202\week07\project1\project1\system.cpp(90): note: type is 'unknown-type'
+d:\apcs\cs202\week07\project1\project1\system.cpp(91): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+d:\apcs\cs202\week07\project1\project1\system.cpp(97): error C2039: 'findByName': is not a member of 'CFolder'
+  d:\apcs\cs202\week07\project1\project1\system.h(9): note: see declaration of 'CFolder'
+d:\apcs\cs202\week07\project1\project1\system.cpp(99): error C2065: 'list': undeclared identifier
+d:\apcs\cs202\week07\project1\project1\system.cpp(99): error C2228: left of '.begin' must have class/struct/union
+  d:\apcs\cs202\week07\project1\project1\system.cpp(99): note: type is 'unknown-type'
+d:\apcs\cs202\week07\project1\project1\system.cpp(99): error C2228: left of '.end' must have class/struct/union
+  d:\apcs\cs202\week07\project1\project1\system.cpp(99): note: type is 'unknown-type'
+d:\apcs\cs202\week07\project1\project1\system.cpp(111): error C2065: 'checkHidden': undeclared identifier
+d:\apcs\cs202\week07\project1\project1\system.cpp(113): error C2663: 'std::vector<_Ty,_Alloc>::begin': 2 overloads have no legal conversion for 'this' pointer
+d:\apcs\cs202\week07\project1\project1\system.cpp(113): error C2663: 'std::vector<_Ty,_Alloc>::end': 2 overloads have no legal conversion for 'this' pointer
+d:\apcs\cs202\week07\project1\project1\system.cpp(118): error C2065: 'checkHidden': undeclared identifier
+d:\apcs\cs202\week07\project1\project1\system.cpp(120): error C2663: 'std::vector<_Ty,_Alloc>::begin': 2 overloads have no legal conversion for 'this' pointer
+d:\apcs\cs202\week07\project1\project1\system.cpp(120): error C2663: 'std::vector<_Ty,_Alloc>::end': 2 overloads have no legal conversion for 'this' pointer
+  Main.cpp
+d:\apcs\cs202\week07\project1\project1\system.h(9): error C2504: 'CItem': base class undefined
+d:\apcs\cs202\week07\project1\project1\system.h(13): error C2065: 'CItem': undeclared identifier
+d:\apcs\cs202\week07\project1\project1\system.h(13): error C2059: syntax error: '>'
+d:\apcs\cs202\week07\project1\project1\system.h(13): error C2976: 'std::vector': too few template arguments
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\vector(659): note: see declaration of 'std::vector'
+d:\apcs\cs202\week07\project1\project1\system.h(17): error C2061: syntax error: identifier 'CFile'
+d:\apcs\cs202\week07\project1\project1\system.h(23): error C2143: syntax error: missing ';' before '*'
+d:\apcs\cs202\week07\project1\project1\system.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\apcs\cs202\week07\project1\project1\system.h(23): error C2238: unexpected token(s) preceding ';'
+d:\apcs\cs202\week07\project1\project1\system.h(24): error C2143: syntax error: missing ';' before '*'
+d:\apcs\cs202\week07\project1\project1\system.h(24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\apcs\cs202\week07\project1\project1\system.h(24): error C2238: unexpected token(s) preceding ';'
+d:\apcs\cs202\week07\project1\project1\system.h(28): error C2504: 'CItem': base class undefined
+d:\apcs\cs202\week07\project1\project1\main.cpp(10): error C2664: 'void CFolder::add(CFolder *)': cannot convert argument 1 from 'CFile *' to 'CFolder *'
+  d:\apcs\cs202\week07\project1\project1\main.cpp(10): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\apcs\cs202\week07\project1\project1\main.cpp(11): error C2664: 'void CFolder::add(CFolder *)': cannot convert argument 1 from 'CFile *' to 'CFolder *'
+  d:\apcs\cs202\week07\project1\project1\main.cpp(11): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\apcs\cs202\week07\project1\project1\main.cpp(16): error C2039: 'removeByName': is not a member of 'CFolder'
+  d:\apcs\cs202\week07\project1\project1\system.h(9): note: see declaration of 'CFolder'
+d:\apcs\cs202\week07\project1\project1\main.cpp(19): error C2039: 'findByName': is not a member of 'CFolder'
+  d:\apcs\cs202\week07\project1\project1\system.h(9): note: see declaration of 'CFolder'
+d:\apcs\cs202\week07\project1\project1\main.cpp(29): error C2039: 'findByName': is not a member of 'CFolder'
+  d:\apcs\cs202\week07\project1\project1\system.h(9): note: see declaration of 'CFolder'
+d:\apcs\cs202\week07\project1\project1\main.cpp(38): error C2039: 'findByName': is not a member of 'CFolder'
+  d:\apcs\cs202\week07\project1\project1\system.h(9): note: see declaration of 'CFolder'
+  Generating Code...

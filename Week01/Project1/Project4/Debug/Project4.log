@@ -1,0 +1,8 @@
+﻿  Rectangle.cpp
+d:\apcs\cs202\week01\project1\project4\rectangle.cpp(19): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+d:\apcs\cs202\week01\project1\project4\rectangle.cpp(23): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+d:\apcs\cs202\week01\project1\project4\rectangle.cpp(27): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  1751023_Ex03.cpp
+  Generating Code...
+  Project4.vcxproj -> D:\APCS\CS202\Week01\Project1\Debug\Project4.exe
+  Project4.vcxproj -> D:\APCS\CS202\Week01\Project1\Debug\Project4.pdb (Partial PDB)

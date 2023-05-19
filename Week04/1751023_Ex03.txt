@@ -1,0 +1,65 @@
+The console printed out:
+
+Base constructor-0 param
+//Running constructor 0 parameter for base b1
+
+Base constructor-1 param
+//Running constructor 1 parameter for base b2(3)
+
+Base constructor-1 param
+//Running constructor 1 parameter for *pb=new Base(1)
+
+Base constructor-0 param
+//Running constructor 0 parameter for DerivedA da1 in class Base
+DerivedA constructor-0 param
+//Running constructor 0 parameter for DerivedA da1 in class DerivedA
+
+Base constructor-0 param
+//DerivedA da2 in class Base
+DerivedA constructor-1 param
+//constructor 1 parameter DerivedA da2 in class DerivedA
+
+Base constructor-0 param
+//DerivedA da3 in class Base
+DerivedA constructor-2 params
+//constructor 3 parameter DerivedA da3 in class DerivedA
+
+Base constructor-0 param //DerivedA da2
+Base constructor-0 param //DerivedA da4
+DerivedA constructor-2 params//DerivedA pb
+
+Base constructor-0 param //DerivedB db1
+DerivedB constructor-0 param //DerivedB db1
+Base constructor-0 param //DerivedB db2
+DerivedB constructor-1 param //DerivedB db2
+Base constructor-1 param //DerivedB db3
+DerivedB constructor-2 params //DerivedB db3
+
+Base copy constructor
+DerivedB copy constructor
+//DerivedB copy constructor call Base copy constructor
+
+Base constructor-1 param //DerivedB db4
+DerivedB constructor-2 params //DerivedB db4
+//DerivedB 2 parameters constructor call Base 1 parameter constructor
+
+Base copy constructor
+//Because function f call a base-typed object by value, before function f runs, it will make a copy of the object b1
+Function f
+Base destructor
+//After running the function, it will destroy the copy object
+
+Base copy constructor
+//Because function f call a base-typed object by value, before function f runs, it will make a copy of the object da1
+Function f
+Base destructor
+//After running the function, it will destroy the copy object
+
+Base copy constructor
+//Because function f call a base-typed object by value, before function f runs, it will make a copy of the object db1
+Function f
+Base destructor
+//After running the function, it will destroy the copy object
+
+Base destructor //Destructor for pb
+//Derived destructor always run first then go to Base destructor

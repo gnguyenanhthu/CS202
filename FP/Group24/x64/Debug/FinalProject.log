@@ -1,0 +1,4 @@
+﻿  utilities.cpp
+d:\apcs\cs202\fp\group24\utilities.cpp(273): warning C4309: 'initializing': truncation of constant value
+  FinalProject.vcxproj -> D:\APCS\CS202\FP\Group24\x64\Debug\FinalProject.exe
+  FinalProject.vcxproj -> D:\APCS\CS202\FP\Group24\x64\Debug\FinalProject.pdb (Partial PDB)

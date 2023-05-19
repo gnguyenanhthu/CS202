@@ -1,0 +1,25 @@
+a/ class EyedFace : public Face{
+private:
+	int eyes;
+public:
+	EyedFace(string a, int b){
+		EyedFace(a):Face(a);
+		eyes=b;
+	}
+	void show(){
+		show();
+		cout<<"Eyes: "<<eyes<<endl;
+	}
+	EyedFace& clone(EyedFace &x){
+		return x;
+	}
+}
+
+b/ Object of abstract classtype cannot be identified; therefore, testFace is undefined.
+Fix it:
+int main() {
+	Face* fc;
+	Face* fc1(“Rectangle”);
+	testFace(&fc1);
+	return 0;
+}
